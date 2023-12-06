@@ -1,0 +1,13 @@
+Maximiliano Neiner3 nov
+
+auto_json.html -> NO COLOCA APELLIDO Y NOMBRE
+Al cargar la página, se muestra un alert con el contenido de un listado (??)
+Se muestra un listado obtenido de una base de datos (??)
+agregarJSON -> se invoca de forma recursiva a la función Manejadora.AgregarAutoJSON(); entrando en un bucle infinito (??)
+mostrarJSON -> genera errores: ajax.ts:22     
+       GET http://localhost/lab_3/2023/2c/pp/MendozaJavier/backend/listarAutosJSON.php 404 (Not Found)
+NO MUESTRA.
+verificarJSON -> siempre retorna que no se encuentra el auto, esté o no en el listado.
+
+
+nota: 2

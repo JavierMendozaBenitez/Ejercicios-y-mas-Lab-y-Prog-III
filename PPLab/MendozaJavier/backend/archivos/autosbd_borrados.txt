@@ -1,0 +1,3 @@
+patente:AC456PE,marca:asasa,color:asasa,precio:121213,foto:AC456PE.borrado.005241.png
+patente:AS123Me,marca:Poa,color:violeta,precio:48546,foto:AS123Me.borrado.005315.jpg
+patente:abc1231,marca:fiat4,color:blanco4,precio:100554,foto:abc1231.borrado.075759.jpg

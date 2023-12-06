@@ -1,0 +1,21 @@
+Maximiliano Neiner10 nov
+
+
+vivero.html -> Al cargar la página, no muestra el listado.
+genera errores:
+Uncaught TypeError: manejadora.MostrarPlantasFotosBD is not a function at HTMLDocument.<anonymous> (vivero.html:23:16)
+NO muestra el listado.
+MostrarPlantasFotosBD -> NO muestra el color de las plantas. (undefined)
+ModificarPlantaFotoBD -> genera errores (500)
+NO MODIFICA.
+EliminarPlantaFotoBD -> genera errores (400):
+DELETE http://localhost:2023/eliminarPlantaFotoBD 404 (Not Found)
+send @ jquery.min.js:2
+ajax @ jquery.min.js:2
+(anonymous) @ Manejadora.ts:61
+dispatch @ jquery.min.js:2
+v.handle @ jquery.min.js:2
+NO BORRA.
+
+
+nota: 4
