@@ -1,0 +1,19 @@
+Maximiliano Neiner7 nov
+altaCiudadano -> retorna cadena con formato JSON (??) en lugar del JSON 
+verificarCiudadano -> genera warning:
+Warning: foreach() argument must be of type array|object, null given in C:\xampp\htdocs\prog_3\2023\2c\rpp\Mendoza.Javier\clases\Ciudadano.php on line 51
+Retorna siempre una cadena con formato JSON (??) en lugar del JSON cuyo mensaje indica que “el auto no existe en el json” (??) 
+NO VERIFICA.
+listadoCiudadanos -> genera warning:
+Warning: foreach() argument must be of type array|object, null given in C:\xampp\htdocs\prog_3\2023\2c\rpp\Mendoza.Javier\clases\Ciudadano.php on line 51
+NO LISTA.
+listadoCiudades -> genera errores:
+Fatal error: Uncaught Error: Interface "Mendoza\Javier\IParte2" not found in C:\xampp\htdocs\prog_3\2023\2c\rpp\Mendoza.Javier\clases\Ciudad.php on line 9
+Error: Interface "Mendoza\Javier\IParte2" not found in C:\xampp\htdocs\prog_3\2023\2c\rpp\Mendoza.Javier\clases\Ciudad.php on line 9
+NO LISTA.
+agregarCiudad -> genera errores:
+Fatal error: Uncaught Error: Interface "Mendoza\Javier\IParte2" not found in C:\xampp\htdocs\prog_3\2023\2c\rpp\Mendoza.Javier\clases\Ciudad.php on line 9
+Error: Interface "Mendoza\Javier\IParte2" not found in C:\xampp\htdocs\prog_3\2023\2c\rpp\Mendoza.Javier\clases\Ciudad.php on line 9
+NO AGREGA.
+
+nota: 2

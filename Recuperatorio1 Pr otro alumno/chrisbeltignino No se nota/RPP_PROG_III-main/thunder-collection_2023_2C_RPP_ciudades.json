@@ -1,0 +1,301 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "2023_2C_RPP_ciudades",
+    "dateExported": "2023-10-30T11:07:57.959Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6bb61a52-7e51-4bec-9aa5-f90d8fb9f6da",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "01-AltaCiudadano",
+            "url": "http://localhost/prog_3/AltaCiudadano.php",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-10-30T10:11:23.870Z",
+            "modified": "2023-10-30T10:23:41.870Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "ciudad",
+                        "value": "Quilmes"
+                    },
+                    {
+                        "name": "email",
+                        "value": "uno@uno.com"
+                    },
+                    {
+                        "name": "clave",
+                        "value": "123456"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "34b03d9b-e51a-4a69-b98f-d5acc2fb69d5",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "02-VerificarCiudadano",
+            "url": "http://localhost/prog_3/VerificarCiudadano.php",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-30T10:11:23.871Z",
+            "modified": "2023-10-30T10:24:28.785Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "dos@dos.com"
+                    },
+                    {
+                        "name": "clave",
+                        "value": "123456"
+                    },
+                    {
+                        "name": "email",
+                        "value": "uno@uno.com",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "cddc6d43-2886-4bb3-af95-98505fd5851f",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "03-ListadoCiudadanos",
+            "url": "http://localhost/prog_3/ListadoCiudadanos.php",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-10-30T10:11:23.872Z",
+            "modified": "2023-10-30T10:25:11.786Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6c356bc0-ac5e-47fa-a366-b58e0983c013",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "04-ListadoCiudades",
+            "url": "http://localhost/prog_3/2022/rpp/ListadoCiudades.php",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-10-30T10:11:23.874Z",
+            "modified": "2023-10-30T10:11:23.874Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "tabla",
+                    "value": "mostrar",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "93b2d4a7-5f8c-4ee7-84f9-2439fb9c3b94",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "05-AgregarCiudad",
+            "url": "http://localhost/prog_3/AgregarCiudad.php",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-10-30T10:11:23.875Z",
+            "modified": "2023-10-30T10:31:33.394Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "Solano"
+                    },
+                    {
+                        "name": "poblacion",
+                        "value": "100"
+                    },
+                    {
+                        "name": "pais",
+                        "value": "Argentina"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "foto",
+                        "value": "C:\\Users\\Maxi\\Pictures\\2018.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "554f3f91-b6b5-42b6-ac0f-00fde819d978",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "06-ModificarCiudad",
+            "url": "http://localhost/prog_3/modificarCiudad.php",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-10-30T10:11:23.876Z",
+            "modified": "2023-10-30T10:34:23.670Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "ciudad_json",
+                        "value": "{\"id\":4, \"nombre\":\"Solano modif\", \"poblacion\":999, \"pais\":\"Argentina\", \"pathFoto\":\"Solano.Argentina.020907.jpg\"}"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "foto",
+                        "value": "C:\\Users\\Maxi\\Pictures\\nacho_dub.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b988a13e-fb31-41c5-9888-93469ed75eea",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "07-EliminarCiudad.php__GET",
+            "url": "http://localhost/prog_3/EliminarCiudad.php",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-10-30T10:11:23.877Z",
+            "modified": "2023-10-30T10:35:54.387Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "nombre",
+                    "value": "Bernal",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "1bdbce6e-1764-4a32-bb34-f7bea0d05edf",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "08-EliminarCiudad.php__GET_sin_params",
+            "url": "http://localhost/prog_3/EliminarCiudad.php",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2023-10-30T10:11:23.879Z",
+            "modified": "2023-10-30T10:36:25.408Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d6edf169-e3ce-4964-b2e7-883168617d21",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "09-EliminarCiudad.php__POST",
+            "url": "http://localhost/prog_3/EliminarCiudad.php",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-10-30T10:11:23.880Z",
+            "modified": "2023-10-30T10:41:06.337Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "ciudad_json",
+                        "value": "{\"id\":5, \"nombre\":\"nombre_modif\", \"pais\":\"pais_modif\"}"
+                    },
+                    {
+                        "name": "accion",
+                        "value": "borrar"
+                    },
+                    {
+                        "name": "accion",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0a3c3df0-941c-448f-a28c-449f85331c16",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "10-FiltrarCiudad",
+            "url": "http://localhost/prog_3/FiltrarCiudades.php",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2023-10-30T10:11:23.881Z",
+            "modified": "2023-10-30T10:41:53.598Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "Berna"
+                    },
+                    {
+                        "name": "pais",
+                        "value": "suiza"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "24b4c0d7-3611-4508-8e86-8bc73a8369d6",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "11-MostrarFotosModificadas.php",
+            "url": "http://localhost/prog_3/MostrarFotosModificadas.php",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2023-10-30T10:11:23.882Z",
+            "modified": "2023-10-30T10:42:59.525Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a227cab1-0cba-4948-8e3b-f6e2a78fbfa9",
+            "colId": "057cc7ac-eb9b-4d63-9c28-e20b7a53b974",
+            "containerId": "",
+            "name": "12-listadoCiudadesPDF",
+            "url": "http://localhost/prog_3/listadoCiudadesPDF.php",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2023-10-30T10:46:23.709Z",
+            "modified": "2023-10-30T10:47:32.826Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
